@@ -1,0 +1,20 @@
+.white {
+    display: inline-block;
+    background: #ff3fff;
+    height: 20px;
+    width: 20px;
+}
+.NewLine {
+    display: flex;
+}
+#frame{
+    text-align: right;
+}
+
+div{
+    display: inline-flex;
+    background: #2f389f;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
