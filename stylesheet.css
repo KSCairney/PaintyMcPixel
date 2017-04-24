@@ -1,11 +1,22 @@
+body {
+    text-align: center;
+    line-height: 1px; /* this is to remove white gaps between lines*/
+}
+h1 {
+    line-height: 20px;
+    font-family: Sans-serif;
+    color: #FF0000;
+}
 
-.white {
+div.white {
     display: inline-block;
     background: #FF0000;
-    height: 20px;
-    width: 20px;
-    vertical-align: top;
+    height: 10px;
+    width: 10px;
+    /*vertical-align: top;*/
+    line-height: 1px;
 }
+
 
 #frame{
     text-align: right;
@@ -14,7 +25,32 @@
 div.blank{
     display: inline-block;
     background: #7f07f7;
-    height: 20px;
-    width: 20px;
-    vertical-align: top;
+    height: 10px;
+    width: 10px;
+    /*vertical-align: top;*/
+    line-height: 1px;
+}
+
+.bttn {
+    height: 36px;
+    width: 150px;
+    background-color: #e5e5e5;
+    color: #7f07f7;
+    border: 0px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 25px 5px 25px 5px;
+    border-radius: 1px;
+}
+
+.grn {
+    height: 36px;
+    width: 150px;
+    background-color: #e5e5e5;
+    color: #10ad01;
+    border: 0px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 25px 5px 25px 5px;
+    border-radius: 1px;
 }
